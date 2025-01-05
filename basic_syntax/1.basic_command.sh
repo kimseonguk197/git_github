@@ -33,3 +33,6 @@ git log --graph
 
 # main브랜치 뿐만 전체 commit 이력 조회 
 git log --all
+
+# 충돌무시하고 강제 push할때
+git push origin main --force
