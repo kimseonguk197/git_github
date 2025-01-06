@@ -72,3 +72,14 @@ git stash show -p 인덱스번호
 git stash list
 # 저장목록 모두 삭제
 git stash clear
+
+# 버전명시
+git tag v1.0
+git tag -a v1.0 -m "1.주요사항A 2.주요사항B"
+
+# tag release 배포
+# commit push와 상관없이 태그별도로 push
+git push origin v1.0
+
+# 태그 목록조회
+git tag
